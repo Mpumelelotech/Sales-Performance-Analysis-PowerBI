@@ -1,65 +1,170 @@
-# Sales Performance Analysis using Power BI
-### Project Overview
-This project analyzes sales data to uncover key trends and generate actionable insights that can drive strategic decision-making.
+Yes, I would absolutely do that.
 
-### Specific Observations
-Segment Performance:
+In fact, I think your Power BI project README should be very similar in structure to the NYC project README, because the purpose is the same:
 
-The Corporate segment contributes the highest revenue (51.86%), despite the Consumer segment having the most orders.
-This suggests opportunities to nurture corporate relationships while exploring upselling within the Consumer segment.
+Show the volume of work, the methodology, the business questions, the findings, and the skills demonstrated.
 
-### Category & Regional Insights:
+The only difference is that instead of sections like:
 
-The Technology category generates the most revenue.
-The South region has the highest average order value, suggesting it may be a good target for region-specific promotions.
+Technical Workflow
+Data Cleaning
+Statistical Testing
+Python
 
-### Target Analysis (2015):
 
-Although sales and unit targets were exceeded, the orders target fell short.
-This indicates a need to focus on boosting order frequency.
+you'll have sections like:
 
-### Methodology
-Conducted using Power BI, analyzing data across segments, regions, and product categories.
-Focused on identifying revenue drivers and performance gaps against set targets.
+Data Preparation
+Power BI Modelling
+DAX Measures
+Report Development
+Business Intelligence Reporting
 
-### Key Findings
-##### Segment:
 
-Corporate leads in revenue.
-Consumer leads in order volume.
+Looking at the project requirements and reports, there is definitely enough work to justify a detailed README.
 
-Home Office shows low engagement.
+I would structure it something like:
 
-##### Region:
+Sales Performance Analysis using Power BI
+Project Overview
 
-West has the highest order volume.
-South has the highest average order value.
+This project analyzes sales performance data to identify trends in customer behavior, sales performance, shipping activity, regional performance, product demand, and target achievement. The project combines data preparation, report development, DAX calculations, KPI monitoring, and business intelligence reporting to support data-driven decision making.
 
-##### Category:
+Dataset Information
+Metric	ValueTool	Power BI
+Dataset	Sales_Info
+Analysis Areas	Sales, Customers, Products, Shipping, Targets
+Reporting Type	Business Intelligence Reporting
+Deliverable	Series of Analytical Reports
+Business Questions
 
-Technology is the top-performing category.
+The reporting solution was developed to answer the following questions:
 
-##### 2015 Targets:
+What is the total number of orders per segment?
+What is the average number of orders per region?
+What is the average sales value per region?
+What are the total sales by category?
+Which states generate the highest sales?
+During which year and quarter were the most products sold?
+How much does each customer segment contribute to total sales?
+Which category sold the most units each year?
+What are the most frequently used shipping methods?
+Which state has the most customers?
+What is the average quantity sold per state?
+How do categories and sub-categories perform in terms of cost, quantity, and sales?
+Is the business meeting its sales and quantity targets?
+Data Preparation
 
-Sales and Units Sold exceeded targets.
-Orders did not meet the target.
+Before building reports, the dataset was reviewed and prepared for analysis.
 
- ### Potential Next Steps
-Explore ways to increase order value in the Consumer segment.
+Activities included:
 
-Investigate why the Home Office segment underperforms.
+Dataset inspection
+Data transformation
+Data cleaning
+Removal of unnecessary columns
+Ship Date
+Country
+Data type validation
+Data loading into Power BI
+Data quality assessment
+Additional Validation
 
-Analyze what drives high order value in the South region for possible application elsewhere.
+The Sales Amount field was investigated using the Interquartile Range (IQR) method to identify potential outliers. A dedicated outlier classification field was created using DAX to enable comparisons between reports with and without suspected outliers.
 
-Develop strategies to boost order frequency across all segments.
+Report Development
 
-### How to Use This Repository
-This repository includes:
+A series of analytical reports were developed to evaluate:
 
-Power BI sales analytics Full Project-PDF version.pdf:
-A detailed PDF report with all visuals, insights, and conclusions.
+Sales Performance
+Sales by category
+Sales by state
+Sales by region
+Sales contribution by segment
+Customer Analysis
+Orders per segment
+Customer distribution by state
+Product Performance
+Units sold by category
+Quantity sold by category and sub-category
+Shipping Analysis
+Shipping mode usage by year
+Target Analysis
+Sales target achievement
+Quantity target achievement
+Performance against business thresholds
+Regional Analysis
+Sales performance by region
+Order distribution by region
+Key Findings
+Customer Segments
 
-Note: The interactive Power BI report (.pbix file) is hosted privately due to intellectual property considerations. It can be made available upon request, especially for interviews or further review.
+Consumer customers generated the highest number of orders, while segment contribution analysis revealed differences in sales contribution across customer groups.
 
-### Summary
-This Power BI project highlights how visual analytics can translate raw sales data into meaningful business insights, with clear recommendations for action.
+Regional Performance
+
+Western and Eastern regions consistently appeared among the strongest-performing regions across multiple metrics.
+
+Product Categories
+
+Technology generated the highest overall sales compared with Furniture and Office Supplies.
+
+Shipping Trends
+
+Standard Class was consistently the most frequently used shipping mode across reporting periods.
+
+State Performance
+
+Sales and customer concentration varied substantially across states, with several states contributing disproportionately to overall performance.
+
+Business Targets
+
+The target-monitoring reports provided visibility into performance relative to minimum and target thresholds, enabling performance evaluation across reporting periods.
+
+Challenges and Limitations
+Sales Outliers
+
+Potential outliers were identified within the Sales Amount field using the IQR method.
+
+Because the dataset did not provide sufficient business context to determine whether these observations represented genuine business activity or data anomalies, no records were removed.
+
+Instead, an outlier filter was implemented to support transparent analysis under different assumptions.
+
+Cost Interpretation
+
+Limited business context was available regarding product pricing structures and cost calculations.
+
+Additional stakeholder consultation would be required before making significant modifications to cost-related data or conclusions.
+
+Skills Demonstrated
+Business Intelligence
+Power BI
+KPI Development
+Dashboard and Report Design
+Business Reporting
+Data Preparation
+Data Cleaning
+Data Transformation
+Data Validation
+Outlier Analysis
+Data Modelling
+DAX
+Calculated Columns
+Measures
+Analytics
+Trend Analysis
+Customer Analysis
+Sales Analysis
+Target Analysis
+Performance Monitoring
+Deliverables
+Interactive Power BI Reports
+Executive Reporting Pages
+KPI Performance Reports
+Business Recommendations
+Downloadable PDF Report
+Project Outcome
+
+The project transformed transactional sales data into a comprehensive business intelligence reporting solution that enables stakeholders to monitor sales performance, customer behavior, shipping activity, product demand, and organizational performance against established targets. The resulting reports provide decision-makers with accessible and actionable insights to support strategic planning and operational improvement.
+
+Personally, I think this README would make the project look much more professional than simply uploading the PDF because it shows what work was actually performed to create those reports. That's exactly what made your NYC README strong.
