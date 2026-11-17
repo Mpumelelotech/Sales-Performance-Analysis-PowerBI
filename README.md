@@ -1,41 +1,15 @@
-Yes, I would absolutely do that.
-
-In fact, I think your Power BI project README should be very similar in structure to the NYC project README, because the purpose is the same:
-
-Show the volume of work, the methodology, the business questions, the findings, and the skills demonstrated.
-
-The only difference is that instead of sections like:
-
-Technical Workflow
-Data Cleaning
-Statistical Testing
-Python
-
-
-you'll have sections like:
-
-Data Preparation
-Power BI Modelling
-DAX Measures
-Report Development
-Business Intelligence Reporting
-
-
-Looking at the project requirements and reports, there is definitely enough work to justify a detailed README.
-
-I would structure it something like:
-
 Sales Performance Analysis using Power BI
 Project Overview
 
 This project analyzes sales performance data to identify trends in customer behavior, sales performance, shipping activity, regional performance, product demand, and target achievement. The project combines data preparation, report development, DAX calculations, KPI monitoring, and business intelligence reporting to support data-driven decision making.
 
 Dataset Information
-Metric	ValueTool	Power BI
-Dataset	Sales_Info
-Analysis Areas	Sales, Customers, Products, Shipping, Targets
-Reporting Type	Business Intelligence Reporting
-Deliverable	Series of Analytical Reports
+
+<img width="658" height="260" alt="image" src="https://github.com/user-attachments/assets/ac0107a6-fced-4dc7-8062-5c5fdf620d8c" />
+
+
+
+
 Business Questions
 
 The reporting solution was developed to answer the following questions:
@@ -96,6 +70,7 @@ Performance against business thresholds
 Regional Analysis
 Sales performance by region
 Order distribution by region
+
 Key Findings
 Customer Segments
 
@@ -166,5 +141,3 @@ Downloadable PDF Report
 Project Outcome
 
 The project transformed transactional sales data into a comprehensive business intelligence reporting solution that enables stakeholders to monitor sales performance, customer behavior, shipping activity, product demand, and organizational performance against established targets. The resulting reports provide decision-makers with accessible and actionable insights to support strategic planning and operational improvement.
-
-Personally, I think this README would make the project look much more professional than simply uploading the PDF because it shows what work was actually performed to create those reports. That's exactly what made your NYC README strong.
